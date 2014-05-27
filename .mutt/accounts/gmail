@@ -1,7 +1,7 @@
 # identitah
 set realname="Aaron Zauner"
 set from="azet@azet.org"
-set signature='~/.mutt/sig'
+set signature='~/.mutt/accounts/gmail.sig'
 set imap_user="$from"
 set imap_pass=xxxx
 set pgp_sign_as=0xFDB9B5D5
