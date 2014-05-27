@@ -1,0 +1,31 @@
+# identitah
+set realname="Aaron Zauner"
+set from="azet@azet.org"
+set signature='~/.mutt/sig'
+set imap_user="$from"
+set imap_pass=xxxx
+set pgp_sign_as=0xFDB9B5D5
+set pgp_autosign=yes
+
+# imap
+set folder = "imaps://imap.gmail.com:993"
+set spoolfile = "+INBOX"
+set postponed ="+[Google Mail]/Drafts"
+set trash = "+[Google Mail]/Trash"
+set mbox =+INBOX
+set record = "=[Gmail]/Sent Mail"
+save-hook .* "=[Gmail]/Spam"
+
+# smtp
+set smtp_url = "smtp://azet@azet.org@smtp.gmail.com:587/"
+set smtp_pass = "xxx" 
+
+# sec. related
+set move = no 
+set imap_keepalive = 900
+
+set nouse_domain
+
+# gmail specifics
+bind index,pager g imap-fetch-mail
+
