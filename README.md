@@ -7,7 +7,7 @@ sudo apt-get install urlview muttprint muttprint-manual mutt-patched w3m mutt
 ```
 
 ### config
-* copy to `~/.muttrc` and `~/.mutt/`
+* copy to `~/.mutt/`
 * configure `~/.mutt/accounts/*`
 * ???
 * PROFIT
