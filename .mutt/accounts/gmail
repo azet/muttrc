@@ -27,5 +27,6 @@ set imap_keepalive = 900
 set nouse_domain
 
 # gmail specifics
-bind index,pager g imap-fetch-mail
-
+bind index,pager g imap-fetch-mail      # get new mail
+bind index,pager a group-reply          # reply-all
+bind index,pager c mail                 # compose new
