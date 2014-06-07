@@ -8,7 +8,6 @@
     set copy                 # Always keep a copy of my mails!
     set delete=ask-yes       # ask before deleting any messages
     set edit_headers         # edit all headers lines in the editor
-    set editor="vim -c 'set tw=68 et ai!'" 
   unset followup_to          # do not generate a Followup-To header
 #    set force_name           # set: save outbound mail by username
     set hidden_host          # do not use a hostname in the address - PROBLEMATIC!
@@ -102,6 +101,7 @@ set imap_idle = yes # keep the imap connection open...
   set header_cache=~/.cache/mutt/
   set message_cachedir=~/.cache/mutt/
 
-set editor='vim -c "set spell spelllang=en_us"'
+ # extend default editor options by spellchecking
+ set editor='vim -c "set spell spelllang=en_us" -c "set tw=68 et ai!"'
 
 
