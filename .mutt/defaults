@@ -102,3 +102,6 @@ set imap_idle = yes # keep the imap connection open...
   set header_cache=~/.cache/mutt/
   set message_cachedir=~/.cache/mutt/
 
+set editor='vim -c "set spell spelllang=en_us"'
+
+
