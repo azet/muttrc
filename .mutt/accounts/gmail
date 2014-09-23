@@ -31,3 +31,7 @@ set nouse_domain
 bind index,pager g imap-fetch-mail      # get new mail
 bind index,pager a group-reply          # reply-all
 bind index,pager c mail                 # compose new
+
+# search imap (prefix =b)
+set simple_search="=b %s"
+

@@ -13,7 +13,7 @@ sudo apt-get install urlview muttprint muttprint-manual mutt-patched w3m mutt
 * PROFIT
 
 ### thanks to
-* ch/zeha
+* ch/zeha, mrud, colo
 * all the people i stole parts of this config from
 * the mutt developers
 * the guys maintaining `mutt-patched`
