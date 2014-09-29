@@ -19,18 +19,13 @@ set copy        = no
 
 # smtp
 set smtp_url = "smtp://azet@azet.org@smtp.gmail.com:587/"
-set smtp_pass = "xxx" 
+set smtp_pass = "xxx"
 
 # sec. related
-set move = no 
+set move = no
 set imap_keepalive = 900
 
 set nouse_domain
-
-# gmail specifics
-bind index,pager g imap-fetch-mail      # get new mail
-bind index,pager a group-reply          # reply-all
-bind index,pager c mail                 # compose new
 
 # search imap (prefix =b)
 set simple_search="=b %s"
