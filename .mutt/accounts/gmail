@@ -30,3 +30,8 @@ set nouse_domain
 # search imap (prefix =b)
 set simple_search="=b %s"
 
+# query via google contacts
+set query_command="goobook query '%s'"
+bind editor <Tab> complete-query
+macro index,pager a "<pipe-message>goobook add<return>" "add the sender address to Google contacts"
+

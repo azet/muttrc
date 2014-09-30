@@ -4,6 +4,7 @@
 ### install
 ```bash
 sudo apt-get install urlview muttprint muttprint-manual mutt-patched w3m mutt
+sudo pip install goobook
 ```
 
 ### config
